@@ -175,7 +175,7 @@ const animationTimeline = () => {
       .call(() => {
           setTimeout(() => {
               part1Audio.play();
-          }, 1000);
+          }, 50);
       })
 
       .staggerTo(".hbd-chatbox span", 2, { visibility: "visible" }, 0.07)
