@@ -101,11 +101,12 @@ function choosePhoto() {
     setTimeout(() => addHoverEffect(), 150);
 }
 
-// Step 2: Music option
+// Step 2: Music option with sticker
 function playMusicOption() {
     Swal.fire({
         title: 'Play background music? <br> (⁄ ⁄>⁄ ▽ ⁄<⁄ ⁄)',
         html: `
+            <img src="img/sticker.avif" alt="sticker" style="width:120px; display:block; margin: 0 auto 10px;">
             <p style="font-size:14px; color:#555; line-height:1.6; margin-top:6px;">
                 Best experience on PC or laptop ♪<br>
                 （그래도 스마트폰에서도 괜찮아!）<br><br>
