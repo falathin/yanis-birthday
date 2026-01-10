@@ -104,7 +104,7 @@ function choosePhoto() {
 // Step 2: Music option with sticker
 function playMusicOption() {
     Swal.fire({
-        title: 'Play background music? <br> (⁄ ⁄>⁄ ▽ ⁄<⁄ ⁄)',
+        title: 'Play background music? ~♪',
         html: `
             <img src="img/sticker.avif" alt="sticker" style="width:120px; display:block; margin: 0 auto 10px;">
             <p style="font-size:14px; color:#555; line-height:1.6; margin-top:6px;">
@@ -178,7 +178,7 @@ const animationTimeline = () => {
           }, 50);
       })
 
-      .staggerTo(".hbd-chatbox span", 2, { visibility: "visible" }, 0.07)
+      .staggerTo(".hbd-chatbox span", 1, { visibility: "visible" }, 0.07)
       .to(".fake-btn", 0.1, { backgroundColor: "rgb(127, 206, 248)" }, "+=4")
       .to(".four", 0.5, { scale: 0.2, opacity: 0, y: -150 }, "+=1")
       .from(".idea-1", 0.7, ideaTextTrans)
